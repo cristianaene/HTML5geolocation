@@ -8,3 +8,5 @@ function printPosition() {
         alert("We are sorry, your browser does not support HTML5 geolocation");
     }
 }
+
+
