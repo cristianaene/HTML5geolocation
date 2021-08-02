@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Getting visitor's coordinates with HTML5 geolocation</title>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <p class="text-center p-5 fw-bold light">How to get the visitor coordinates using HTML geolocation</p>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <div class="container m-5" id="currentposition">
+            <p class="fw-bold">The "Check Position" button will print your current position.</p>
+            <button class= "btn btn-dark" onclick="printPosition();">Check Position</button>
+            <br>
+            <br>
+            <p class=>Small batch put a bird on it helvetica pickled shaman. Fingerstache bushwick disrupt swag crucifix pug poutine air plant 90's lyft mlkshk. Freegan locavore selvage farm-to-table lyft asymmetrical edison bulb kale chips. Intelligentsia cornhole skateboard, leggings quinoa poutine succulents man bun synth. Quinoa gentrify tilde shaman readymade narwhal blog leggings affogato fingerstache. Chillwave flexitarian kickstarter coloring book. Poke kickstarter gastropub, vice dreamcatcher ramps thundercats cliche raw denim bespoke.</p>
+            <br>
+            <p>+1 kale chips meggings mumblecore, umami ugh affogato deep v vexillologist slow-carb chartreuse distillery pug salvia 3 wolf moon. Yr paleo jean shorts pickled, synth brooklyn fingerstache marfa. Hell of single-origin coffee brooklyn, ramps selvage farm-to-table direct trade unicorn chambray. Green juice hexagon taiyaki, chillwave try-hard blog pickled vegan meh lo-fi marfa kinfolk biodiesel.</p>
+            <br>
+            <p>Cred poke vape tofu flannel portland gastropub hoodie. Waistcoat gluten-free godard, lyft church-key hashtag thundercats portland chartreuse fingerstache hot chicken squid cloud bread slow-carb lo-fi. Letterpress gochujang williamsburg cronut XOXO meditation tattooed taiyaki, adaptogen man braid selvage pabst. Locavore VHS heirloom kitsch pour-over fanny pack fingerstache bespoke franzen irony authentic fashion axe, prism tacos.</p>
+        </div>
+
+        
+        <!--BS Link-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!--JS Link-->
+        <script src="script.js"></script>
+    </body>
+
+    <footer>
+        <p class="text-center p-5">Roof party echo park iPhone kogi occupy, raw denim disrupt bespoke quinoa.</p>
+    </footer>
+</html>
